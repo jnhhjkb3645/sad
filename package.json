@@ -2,6 +2,8 @@
   "name": "x9voidcore",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/"
-  }
+    "build": "mkdir -p dist && cp index.html dist/",
+    "start": "npx --yes serve dist -l $PORT"
+  },
+  "dependencies": {}
 }
